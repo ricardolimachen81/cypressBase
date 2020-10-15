@@ -1,0 +1,66 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Realizar validação de uma pesquisa no google",
+    "line": 2,
+    "id": "realizar-validação-de-uma-pesquisa-no-google",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "Login.feature",
+    "elements": [
+      {
+        "id": "realizar-validação-de-uma-pesquisa-no-google;pesquisa-no-google",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Pesquisa no google",
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          },
+          {
+            "name": "@pesquisaGoogle",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "que o usuário esteja no site do google",
+            "result": {
+              "status": "passed",
+              "duration": 8634000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "adiciono um nome para pesquisa",
+            "result": {
+              "status": "passed",
+              "duration": 6060000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "valido o nome pesquisado",
+            "result": {
+              "status": "passed",
+              "duration": 43000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
